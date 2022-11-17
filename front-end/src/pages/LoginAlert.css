@@ -1,0 +1,44 @@
+.please-login-to-continue {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+}
+.frame-div28 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-6xs);
+    background-color: #e1e5ff;
+    display: flex;
+    flex-direction: row;
+    padding: 11px 34px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.polygon-icon {
+    position: absolute;
+    top: 45.53px;
+    left: 144.65px;
+    border-radius: 4px;
+    width: 25.21px;
+    height: 22.9px;
+}
+.group-div13 {
+    position: relative;
+    width: 313px;
+    height: 78.99px;
+    flex-shrink: 0;
+}
+.login-alert-div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-3xs);
+    color: var(--black);
+    font-family: var(--font-poppins);
+}

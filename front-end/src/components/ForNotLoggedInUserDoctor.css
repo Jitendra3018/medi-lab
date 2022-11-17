@@ -1,0 +1,208 @@
+.rectangle-icon7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-11xl);
+    width: 1171px;
+    height: 731px;
+}
+.close-big-1-icon2 {
+    position: absolute;
+    top: 0;
+    left: 993px;
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+}
+.ellipse-icon6 {
+    position: relative;
+    width: 256.37px;
+    height: 256.37px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.div37,
+.fees-div1 {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    display: inline-block;
+}
+.div37 {
+    top: 0;
+    left: 290px;
+    font-size: var(--font-size-12xl);
+    font-weight: 600;
+}
+.group-div86 {
+    position: absolute;
+    top: 412px;
+    left: 0;
+    width: 419px;
+    height: 49px;
+}
+.guy-hawkins-div1,
+.name-div3 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: inline-block;
+}
+.guy-hawkins-div1 {
+    top: 0;
+    left: 290px;
+    font-size: var(--font-size-11xl);
+    font-weight: 600;
+}
+.group-div87 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 501px;
+    height: 48px;
+}
+.specializations-div1 {
+    position: absolute;
+    top: 9.5px;
+    left: 0;
+    display: inline-block;
+}
+.heart-problems-div1 {
+    position: relative;
+    display: inline-block;
+}
+.frame-div149 {
+    border-radius: var(--br-10xl);
+    background-color: var(--color-gray-500);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-10xs) var(--padding-xs);
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.ent-div1 {
+    position: relative;
+    letter-spacing: 0.1em;
+    display: inline-block;
+}
+.frame-div148,
+.group-div88 {
+    position: absolute;
+    height: 61px;
+}
+.frame-div148 {
+    top: 0;
+    left: 290px;
+    width: 382px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.group-div88 {
+    top: 80px;
+    left: 0;
+    width: 672px;
+}
+.about-div6,
+.lorem-ipsum-dolor-sit-amet-co1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+.lorem-ipsum-dolor-sit-amet-co1 {
+    left: 290px;
+    font-size: var(--font-size-6xs);
+    line-height: 30px;
+    width: 501px;
+}
+.group-div89 {
+    position: absolute;
+    top: 173px;
+    left: 0;
+    width: 791px;
+    height: 210px;
+}
+.group-div85 {
+    position: relative;
+    width: 791px;
+    height: 461px;
+    flex-shrink: 0;
+}
+.frame-div147 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-6xl);
+}
+.cancel-div1 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+}
+.frame-div152,
+.frame-div153 {
+    border-radius: var(--br-2xl);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-9xs) var(--padding-4xl);
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.frame-div152 {
+    border: 3px solid var(--color-brown-200);
+}
+.frame-div153 {
+    background-color: var(--color-indigo);
+    opacity: 0.46;
+    color: var(--color-white);
+}
+.frame-div146,
+.frame-div151 {
+    display: flex;
+    align-items: center;
+}
+.frame-div151 {
+    width: 1051px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.frame-div146 {
+    position: absolute;
+    top: 58px;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap-11xl);
+}
+.group-div84 {
+    position: absolute;
+    top: 35px;
+    left: 60px;
+    width: 1051px;
+    height: 655px;
+}
+.group-div83 {
+    position: relative;
+    width: 1171px;
+    height: 731px;
+    flex-shrink: 0;
+}
+.for-not-logged-in-user-doctor {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--black);
+    font-family: var(--font-poppins);
+}

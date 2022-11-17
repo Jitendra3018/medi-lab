@@ -1,0 +1,91 @@
+.rectangle-icon6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-11xl);
+    width: 645px;
+    height: 624px;
+}
+.group-icon5 {
+    position: absolute;
+    top: 0;
+    left: 468px;
+    width: 56px;
+    height: 56px;
+}
+.image-1-icon {
+    position: relative;
+    width: 132.78px;
+    height: 258.86px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.advil-ibuprofin-tablets-200mg {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+}
+.amet-minim-mollit-non-deserunt9 {
+    position: relative;
+    font-size: var(--font-size-3xs);
+    text-align: center;
+    display: inline-block;
+    width: 491px;
+}
+.frame-div144 {
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+.frame-div143,
+.frame-div144,
+.frame-div145 {
+    display: flex;
+    justify-content: flex-start;
+}
+.frame-div145 {
+    border-radius: var(--br-2xl);
+    background-color: var(--color-indigo);
+    flex-direction: row;
+    padding: var(--padding-9xs) var(--padding-4xl);
+    box-sizing: border-box;
+    align-items: flex-start;
+    text-align: center;
+    font-size: var(--font-size-3xs);
+    color: var(--color-white);
+}
+.frame-div143 {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+}
+.group-div82 {
+    position: absolute;
+    top: 35px;
+    left: 61px;
+    width: 524px;
+    height: 557.86px;
+}
+.group-div81 {
+    position: relative;
+    width: 645px;
+    height: 624px;
+    flex-shrink: 0;
+}
+.medicine-details-popup {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--black);
+    font-family: var(--font-poppins);
+}
