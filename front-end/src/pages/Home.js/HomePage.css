@@ -828,14 +828,15 @@
 .group-icon7,
 .line-div6 {
     position: relative;
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     flex-shrink: 0;
 }
 .line-div6 {
     border-top: 4px solid var(--color-violet-200);
     box-sizing: border-box;
-    width: 61px;
+    border-radius: 4px;
+    width: 41px;
     height: 4px;
 }
 .frame-div235 {
@@ -857,7 +858,7 @@
 .frame-div233,
 .frame-div234 {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     justify-content: center;
     gap: var(--gap-5xl);
@@ -868,8 +869,8 @@
 }
 .search-line-1-icon6 {
     position: relative;
-    width: 28px;
-    height: 28px;
+    width: 20px;
+    height: 20px;
     flex-shrink: 0;
     overflow: hidden;
 }
@@ -886,7 +887,7 @@
 .frame-div236 {
     border-radius: var(--br-9xl);
     background-color: var(--color-white);
-    width: 48px;
+    width: 40px;
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
@@ -898,7 +899,8 @@
 }
 .login-div1 {
     position: relative;
-    font-size: var(--font-size-xs);
+    /* font-size: var(--font-size-xs); */
+    font-size: 18px;
     font-weight: 500;
     font-family: var(--font-montserrat);
     color: var(--color-white);
@@ -922,7 +924,7 @@
     flex-direction: row;
 }
 .frame-button8 {
-    cursor: pointer;
+    /* cursor: pointer; */
     border: 0;
     padding: 0;
     background-color: transparent;
@@ -942,13 +944,14 @@
     justify-content: space-between;
 }
 .header-before-logging1 {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     box-shadow: 0 8px 44px rgba(0, 0, 0, 0.15);
-    width: 1440px;
-    height: 123px;
-    font-size: var(--font-size-xs);
+    width: 100vw;
+    height: 8rem;
+    /* font-size: var(--font-size-xs); */
+    font-size: 18px;
     color: var(--color-gray-700);
     font-family: var(--font-montserrat);
 }

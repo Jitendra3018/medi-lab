@@ -1,9 +1,9 @@
 import { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import MedicineDetailsPopup from "../components/MedicineDetailsPopup";
-import PortalPopup from "../components/PortalPopup";
-import ForNotLoggedInUserDoctor from "../components/ForNotLoggedInUserDoctor";
-import LoginPopup from "../components/LoginPopup";
+import MedicineDetailsPopup from "../../components/MedicineDetailsPopup";
+import PortalPopup from "../../components/PortalPopup";
+import ForNotLoggedInUserDoctor from "../../components/ForNotLoggedInUserDoctor";
+import LoginPopup from "../../components/LoginPopup";
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -498,7 +498,7 @@ const HomePage = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className="frame-button8" autoFocus>
+                        <div className="frame-button8">
                             <div className="frame-div236">
                                 <img
                                     className="search-line-1-icon6"
@@ -509,12 +509,11 @@ const HomePage = () => {
                             </div>
                             <button
                                 className="frame-button9"
-                                autoFocus
                                 onClick={openLoginPopup}
                             >
                                 <div className="login-div1">LOGIN</div>
                             </button>
-                        </button>
+                        </div>
                     </div>
                 </div>
             </div>

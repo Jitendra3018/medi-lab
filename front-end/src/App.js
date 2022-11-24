@@ -4,7 +4,7 @@ import {
     useNavigationType,
     useLocation,
 } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/Home.js/HomePage";
 import ForNotLoggedInUserBookA from "./pages/ForNotLoggedInUserBookA";
 import LoginAlert from "./pages/LoginAlert";
 import BookAppointment from "./pages/BookAppointment";
