@@ -5,33 +5,51 @@ const DoctorSchema = new mongoose.Schema({
                 type: String,
                 required: true,
               },
-              email: {
+        email: {
+                type: String,
+                required: true,
+                unique: true
+              },
+        password: {
                 type: String,
                 required: true,
               },
-              password: {
+        mobilenumber: {
                 type: String,
-                required: true,
-              },
-              age: {
+                require: true,
+                unique: true
+        },
+        age: {
                 type: Number,
                 required: true,
               },
-              experience: {
+        experience: {
                 type: Number,
                 required: true,
                 min:0
               },
-              specialization: {
+        specialization: {
                 type: String,
                 required: true,
               },
-              appointments: {
-                type: [String]
+        consultationfees: {
+                type: Number,
+                required: true,
+                min: 0
               },
-              image: {
+        image: {
                 type: String
-              }
-})
+              },
+        meetlink: {
+                type: String,
+                required: true
+        },
+        appointments: [{
+                type: String
+        }],
+        unavailableDates: [{
+                type: Date
+        }],
+},{timestamps: true})
 
-export default DoctorSchema
+export default mongoose.model("Doctor",DoctorSchema)
