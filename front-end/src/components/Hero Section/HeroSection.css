@@ -1,0 +1,76 @@
+.hero-section-div3 {
+    position: absolute;
+    top: 177px;
+    left: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xl);
+    font-size: var(--font-size-18xl);
+}
+.frame-div209 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-4xl);
+}
+.frame-div210 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-md);
+}
+.empowering-people-to-improve-t1,
+.lorem-media-is-a-full-service3 {
+    position: relative;
+    display: inline-block;
+    width: 759px;
+}
+.lorem-media-is-a-full-service3 {
+    font-size: var(--font-size-6xs);
+    line-height: 30px;
+    width: 656px;
+}
+.frame-button1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) var(--padding-xl);
+    background-color: var(--color-indigo);
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+.browse-more-button1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    font-size: var(--font-size-2xs);
+    line-height: 32.21px;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+}
+.arrow-right-1-icon9 {
+    position: relative;
+    width: 31.32px;
+    height: 31.32px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.doctorscuate-icon1 {
+    position: relative;
+    width: 509.87px;
+    height: 514.1px;
+    flex-shrink: 0;
+}
