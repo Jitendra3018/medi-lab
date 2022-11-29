@@ -1,6 +1,5 @@
 import { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Header.css";
 import LoginPopup from "../LoginPopup";
 import RegisterPopup from "../RegisterPopup";
 import { Button, Stack, Typography } from "@mui/material";
@@ -58,6 +57,7 @@ function Header() {
             fontSize="18px"
             color="var(--color-gray-700)"
             fontFamily="var(--font-montserrat)"
+            zIndex="1"
         >
             <Stack
                 position="absolute"
