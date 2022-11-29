@@ -109,7 +109,14 @@ function Header() {
                             >
                                 Home
                             </Typography>
-                            <div className="line-div6" />
+                            <Stack
+                                borderTop="4px solid var(--color-violet-200)"
+                                boxSizing="border-box"
+                                borderRadius="4px"
+                                height="4px"
+                                width="41px"
+                                position="relative"
+                            />
                         </Stack>
                         <Typography
                             component="div"
