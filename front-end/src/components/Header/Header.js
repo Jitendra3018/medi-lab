@@ -6,7 +6,7 @@ import { Button, Stack, Typography } from "@mui/material";
 
 function Header() {
     const navigate = useNavigate();
-    const [isLoginPopupOpen, setLoginPopupOpen] = useState(false);
+    // const [isLoginPopupOpen, setLoginPopupOpen] = useState(false);
     const [loginOpen, setLoginOpen] = useState(false);
     const [signupOpen, setSignupOpen] = useState(false);
 
@@ -42,9 +42,9 @@ function Header() {
         setLoginOpen(true);
     };
 
-    const handleSignup = (event) => {
-        setSignupOpen(true);
-    };
+    // const handleSignup = (event) => {
+    //     setSignupOpen(true);
+    // };
 
     return (
         <Stack
@@ -85,7 +85,7 @@ function Header() {
                     <img
                         className="group-icon7"
                         alt=""
-                        src="../group-99496.svg"
+                        src="../assets/group-99496.svg"
                         width={"55px"}
                         height={"55px"}
                         style={{ position: "relative" }}

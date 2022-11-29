@@ -36,14 +36,14 @@ function HeroSection() {
                     <img
                         className="arrow-right-1-icon9"
                         alt=""
-                        src="../arrowright-12.svg"
+                        src="../assets/arrowright-12.svg"
                     />
                 </button>
             </div>
             <img
                 className="doctorscuate-icon1"
                 alt=""
-                src="../doctorscuate1.svg"
+                src="../assets/doctorscuate1.svg"
             />
         </div>
     );

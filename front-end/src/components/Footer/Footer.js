@@ -16,7 +16,7 @@ function Footer() {
                         <img
                             className="standard-collection-126"
                             alt=""
-                            src="../standard-collection-126.svg"
+                            src="../assets/standard-collection-126.svg"
                         />
                         <div className="medilab-div6">MediLab</div>
                     </div>
@@ -66,17 +66,17 @@ function Footer() {
                             <img
                                 className="vector-icon6"
                                 alt=""
-                                src="../vector6.svg"
+                                src="../assets/vector6.svg"
                             />
                             <img
                                 className="phone-alt-icon6"
                                 alt=""
-                                src="../phonealt6.svg"
+                                src="../assets/phonealt6.svg"
                             />
                             <img
                                 className="location-arrow-icon5"
                                 alt=""
-                                src="../locationarrow5.svg"
+                                src="../assets/locationarrow5.svg"
                             />
                         </div>
                     </div>

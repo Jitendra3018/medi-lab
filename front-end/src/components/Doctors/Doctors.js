@@ -24,7 +24,7 @@ function Doctors() {
                     <img
                         className="ellipse-icon15"
                         alt=""
-                        src="../ellipse-38@2x.png"
+                        src="../assets/ellipse-38@2x.png"
                     />
                     <div className="dr-guy-hawkins2">Dr. Guy Hawkins</div>
                     <div className="ent-specialist-div2">ENT Specialist</div>
@@ -42,7 +42,7 @@ function Doctors() {
                     <img
                         className="ellipse-icon15"
                         alt=""
-                        src="../ellipse-38@2x.png"
+                        src="../assets/ellipse-38@2x.png"
                     />
                     <div className="dr-guy-hawkins2">Dr. Guy Hawkins</div>
                     <div className="ent-specialist-div2">ENT Specialist</div>
@@ -56,7 +56,7 @@ function Doctors() {
                     <img
                         className="ellipse-icon15"
                         alt=""
-                        src="../ellipse-34@2x.png"
+                        src="../assets/ellipse-34@2x.png"
                     />
                     <div className="dr-wade-warren2">Dr. Wade Warren</div>
                     <div className="obstetrics-gynaecology-speci2">{`Obstetrics & Gynaecology Specialist`}</div>
@@ -70,7 +70,7 @@ function Doctors() {
                     <img
                         className="ellipse-icon15"
                         alt=""
-                        src="../ellipse-34@2x.png"
+                        src="../assets/ellipse-34@2x.png"
                     />
                     <div className="dr-wade-warren2">Dr. Wade Warren</div>
                     <div className="obstetrics-gynaecology-speci2">{`Obstetrics & Gynaecology Specialist`}</div>
@@ -84,7 +84,7 @@ function Doctors() {
                     <img
                         className="ellipse-icon15"
                         alt=""
-                        src="../ellipse-312@2x.png"
+                        src="../assets/ellipse-312@2x.png"
                     />
                     <div className="dr-jane-wilson2">Dr. Jane Wilson</div>
                     <div className="orthopedics-specialist-div2">
@@ -100,7 +100,7 @@ function Doctors() {
                     <img
                         className="ellipse-icon15"
                         alt=""
-                        src="../ellipse-312@2x.png"
+                        src="../assets/ellipse-312@2x.png"
                     />
                     <div className="dr-jane-wilson2">Dr. Jane Wilson</div>
                     <div className="orthopedics-specialist-div2">

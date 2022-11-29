@@ -26,7 +26,7 @@ function PopularProducts() {
                             <img
                                 className="image-1-icon2"
                                 alt=""
-                                src="../image-11@2x.png"
+                                src="../assets/image-11@2x.png"
                             />
                             <div className="frame-div213">
                                 <div className="frame-div214">
@@ -50,7 +50,7 @@ function PopularProducts() {
                                 <img
                                     className="arrow-right-1-icon10"
                                     alt=""
-                                    src="../arrowright-110.svg"
+                                    src="../assets/arrowright-110.svg"
                                 />
                             </div>
                         </div>
@@ -75,13 +75,13 @@ function PopularProducts() {
                                 <img
                                     className="arrow-right-1-icon11"
                                     alt=""
-                                    src="../arrowright-111.svg"
+                                    src="../assets/arrowright-111.svg"
                                 />
                             </div>
                             <img
                                 className="image-3-icon1"
                                 alt=""
-                                src="../image-3@2x.png"
+                                src="../assets/image-3@2x.png"
                             />
                         </div>
                         <div className="group-div138">
@@ -105,13 +105,13 @@ function PopularProducts() {
                                 <img
                                     className="arrow-right-1-icon12"
                                     alt=""
-                                    src="../arrowright-15.svg"
+                                    src="../assets/arrowright-15.svg"
                                 />
                             </div>
                             <img
                                 className="image-4-icon1"
                                 alt=""
-                                src="../image-4@2x.png"
+                                src="../assets/image-4@2x.png"
                             />
                         </div>
                         <div className="group-div138">
@@ -119,7 +119,7 @@ function PopularProducts() {
                             <img
                                 className="image-5-icon1"
                                 alt=""
-                                src="../image-5@2x.png"
+                                src="../assets/image-5@2x.png"
                             />
                             <div className="frame-div219">
                                 <div className="frame-div214">
@@ -140,7 +140,7 @@ function PopularProducts() {
                                 <img
                                     className="arrow-right-1-icon12"
                                     alt=""
-                                    src="../arrowright-113.svg"
+                                    src="../assets/arrowright-113.svg"
                                 />
                             </div>
                         </div>
@@ -167,13 +167,13 @@ function PopularProducts() {
                                 <img
                                     className="arrow-right-1-icon10"
                                     alt=""
-                                    src="../arrowright-17.svg"
+                                    src="../assets/arrowright-17.svg"
                                 />
                             </div>
                             <img
                                 className="image-6-icon1"
                                 alt=""
-                                src="../image-6@2x.png"
+                                src="../assets/image-6@2x.png"
                             />
                         </div>
                         <div className="group-div144">
@@ -197,13 +197,13 @@ function PopularProducts() {
                                 <img
                                     className="arrow-right-1-icon11"
                                     alt=""
-                                    src="../arrowright-115.svg"
+                                    src="../assets/arrowright-115.svg"
                                 />
                             </div>
                             <img
                                 className="image-7-icon1"
                                 alt=""
-                                src="../image-7@2x.png"
+                                src="../assets/image-7@2x.png"
                             />
                         </div>
                     </div>
