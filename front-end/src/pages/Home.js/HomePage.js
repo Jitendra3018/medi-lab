@@ -5,6 +5,7 @@ import PortalPopup from "../../components/PortalPopup";
 import ForNotLoggedInUserDoctor from "../../components/ForNotLoggedInUserDoctor";
 import LoginPopup from "../../components/LoginPopup";
 import "./HomePage.css";
+import Header from "../../components/Header/Header";
 
 const HomePage = () => {
     const navigate = useNavigate();
@@ -470,52 +471,7 @@ const HomePage = () => {
                         </button>
                     </div>
                 </div>
-                <div className="header-before-logging1">
-                    <div className="rectangle-div109" />
-                    <div className="frame-div232">
-                        <div className="frame-div233">
-                            <img
-                                className="group-icon7"
-                                alt=""
-                                src="../group-99496.svg"
-                            />
-                            <div className="frame-div234">
-                                <div className="frame-div235">
-                                    <b className="home-div11">HOME</b>
-                                    <div className="line-div6" />
-                                </div>
-                                <div
-                                    className="consultations-div3"
-                                    onClick={onCONSULTATIONSTextClick}
-                                >
-                                    CONSULTATIONS
-                                </div>
-                                <div className="advil-ibuprofin-div1">
-                                    ABOUT
-                                </div>
-                                <div className="advil-ibuprofin-div1">
-                                    CONTACT US
-                                </div>
-                            </div>
-                        </div>
-                        <div className="frame-button8">
-                            <div className="frame-div236">
-                                <img
-                                    className="search-line-1-icon6"
-                                    alt=""
-                                    src="../searchline-16.svg"
-                                />
-                                <div className="search-div6">Search</div>
-                            </div>
-                            <button
-                                className="frame-button9"
-                                onClick={openLoginPopup}
-                            >
-                                <div className="login-div1">LOGIN</div>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+                <Header />
             </div>
             {isMedicineDetailsPopupOpen && (
                 <PortalPopup
@@ -537,15 +493,7 @@ const HomePage = () => {
                     />
                 </PortalPopup>
             )}
-            {isLoginPopupOpen && (
-                <PortalPopup
-                    overlayColor="rgba(113, 113, 113, 0.6)"
-                    placement="Centered"
-                    onOutsideClick={closeLoginPopup}
-                >
-                    <LoginPopup onClose={closeLoginPopup} />
-                </PortalPopup>
-            )}
+            
         </>
     );
 };

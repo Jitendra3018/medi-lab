@@ -220,14 +220,12 @@
 .empowering-people-to-improve-t1,
 .lorem-media-is-a-full-service3 {
     position: relative;
-    letter-spacing: 0.04em;
     display: inline-block;
     width: 759px;
 }
 .lorem-media-is-a-full-service3 {
-    font-size: var(--font-size-3xl);
-    letter-spacing: 0.06em;
-    line-height: 36px;
+    font-size: var(--font-size-6xs);
+    line-height: 30px;
     width: 656px;
 }
 .frame-div210 {
@@ -290,10 +288,10 @@
     left: 64px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     gap: var(--gap-3xl);
-    font-size: var(--font-size-19xl);
+    font-size: var(--font-size-18xl);
 }
 .popular-products-div3 {
     position: relative;
@@ -643,12 +641,12 @@
 .anchor-popular-products1 {
     position: absolute;
     left: 0;
-    top: --170px;
+    top: -170px;
 }
 .meet-our-doctors1,
 .popular-products-div2 {
     position: absolute;
-    font-size: var(--font-size-16xl);
+    font-size: var(--font-size-11xl);
 }
 .popular-products-div2 {
     top: 771px;
@@ -815,16 +813,6 @@
     text-align: center;
     font-size: var(--font-size-10xl);
 }
-.rectangle-div109 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: var(--color-gray-400);
-}
 .group-icon7,
 .line-div6 {
     position: relative;
@@ -839,22 +827,6 @@
     width: 41px;
     height: 4px;
 }
-.frame-div235 {
-    height: 52px;
-    display: flex;
-    flex-direction: column;
-    padding: var(--padding-9xs);
-    box-sizing: border-box;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-10xs);
-}
-.consultations-div3 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    cursor: pointer;
-}
 .frame-div233,
 .frame-div234 {
     display: flex;
@@ -867,13 +839,6 @@
     justify-content: flex-start;
     gap: var(--gap-9xl);
 }
-.search-line-1-icon6 {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-    overflow: hidden;
-}
 .search-div6 {
     position: relative;
     font-size: var(--font-size-xs);
@@ -884,19 +849,6 @@
     display: none;
     opacity: 0.5;
 }
-.frame-div236 {
-    border-radius: var(--br-9xl);
-    background-color: var(--color-white);
-    width: 40px;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-9xs) var(--padding-5xs);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    gap: var(--gap-9xs);
-}
 .login-div1 {
     position: relative;
     /* font-size: var(--font-size-xs); */
@@ -906,16 +858,6 @@
     color: var(--color-white);
     text-align: left;
     display: inline-block;
-}
-.frame-button9 {
-    cursor: pointer;
-    border: 0;
-    padding: var(--padding-9xs) var(--padding-sm);
-    background-color: var(--color-indigo);
-    border-radius: var(--br-6xs);
-    box-sizing: border-box;
-    align-items: flex-start;
-    justify-content: flex-start;
 }
 .frame-button8,
 .frame-button9,
@@ -942,18 +884,6 @@
     left: 4.44%;
     align-items: center;
     justify-content: space-between;
-}
-.header-before-logging1 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    box-shadow: 0 8px 44px rgba(0, 0, 0, 0.15);
-    width: 100vw;
-    height: 8rem;
-    /* font-size: var(--font-size-xs); */
-    font-size: 18px;
-    color: var(--color-gray-700);
-    font-family: var(--font-montserrat);
 }
 .home-page-div {
     position: relative;

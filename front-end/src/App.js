@@ -11,7 +11,7 @@ import BookAppointment from "./pages/BookAppointment";
 import ForLoggedInUserBookAppoi from "./pages/ForLoggedInUserBookAppoi";
 import AppointmentsFinished from "./pages/AppointmentsFinished";
 import AppointmentsUpcoming from "./pages/AppointmentsUpcoming";
-import RegisterPopup from "./pages/RegisterPopup";
+// import RegisterPopup from "./pages/RegisterPopup";
 import HomePageAfterLogging from "./pages/HomePageAfterLogging";
 import { useEffect } from "react";
 
@@ -112,7 +112,7 @@ function App() {
                 element={<AppointmentsUpcoming />}
             />
 
-            <Route path="/register-popup" element={<RegisterPopup />} />
+            {/* <Route path="/register-popup" element={<RegisterPopup />} /> */}
 
             <Route
                 path="/home-page-after-logging"
