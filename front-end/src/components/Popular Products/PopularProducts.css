@@ -12,12 +12,12 @@
     justify-content: flex-start;
     gap: var(--gap-8xl);
 }
-.popular-products-div3 {
+/* .popular-products-div3 {
     position: relative;
     line-height: 32.21px;
     font-weight: 600;
     display: inline-block;
-}
+} */
 .frame-div211 {
     display: flex;
     flex-direction: column;

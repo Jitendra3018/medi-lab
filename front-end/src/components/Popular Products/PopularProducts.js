@@ -1,3 +1,4 @@
+import { Grid, Stack, Typography } from "@mui/material";
 import React, { useCallback, useState } from "react";
 import MedicineDetailsPopup from "../MedicineDetailsPopup";
 import PortalPopup from "../PortalPopup";
@@ -16,11 +17,18 @@ function PopularProducts() {
     }, []);
 
     return (
-        <>
-            <div className="popular-products-div2">
-                <div className="popular-products-div3">Popular Products</div>
-                <div className="frame-div211">
-                    <div className="frame-div212">
+        <Stack>
+            <Stack className="popular-products-div2">
+                <Typography
+                    component={"h3"}
+                    variant={"h4"}
+                    className="popular-products-div3"
+                    sx={{ fontWeight: "600" }}
+                >
+                    Popular Products
+                </Typography>
+                <Stack className="frame-div211">
+                    <Grid className="frame-div212">
                         <div className="group-div134">
                             <div className="rectangle-div91" />
                             <img
@@ -144,8 +152,8 @@ function PopularProducts() {
                                 />
                             </div>
                         </div>
-                    </div>
-                    <div className="frame-div225">
+                    </Grid>
+                    <Grid className="frame-div225">
                         <div className="group-div142">
                             <div className="rectangle-div99" />
                             <div className="frame-div226">
@@ -206,13 +214,13 @@ function PopularProducts() {
                                 src="../assets/image-7@2x.png"
                             />
                         </div>
-                    </div>
-                </div>
+                    </Grid>
+                </Stack>
                 <div
                     className="anchor-popular-products1"
                     data-scroll-to="popularProductsContainer"
                 />
-            </div>
+            </Stack>
             {isMedicineDetailsPopupOpen && (
                 <PortalPopup
                     overlayColor="rgba(113, 113, 113, 0.3)"
@@ -222,7 +230,7 @@ function PopularProducts() {
                     <MedicineDetailsPopup onClose={closeMedicineDetailsPopup} />
                 </PortalPopup>
             )}
-        </>
+        </Stack>
     );
 }
 

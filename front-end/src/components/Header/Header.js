@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import LoginPopup from "../LoginPopup";
 import RegisterPopup from "../RegisterPopup";
 import { Button, Stack, Typography } from "@mui/material";
+import { styled } from "@mui/material/styles";
+import { pink } from "@mui/material/colors";
 
 function Header() {
     const navigate = useNavigate();
@@ -161,25 +163,11 @@ function Header() {
                     direction="row"
                     border="0"
                     padding="0"
-                    backgroundColor="transparent"
                     alignItems="flex-start"
                     justifyContent="flex-start"
                     gap="var(--gap-sm)"
                 >
-                    <Button
-                        direction="row"
-                        cursor="pointer"
-                        border="0"
-                        padding="var(--padding-9xs) var(--padding-sm)"
-                        backgroundColor="var(--color-indigo)"
-                        borderRadius="var(--br-6xs)"
-                        alignItems="flex-start"
-                        justifyContent="flex-start"
-                        variant="contained"
-                        onClick={handleLogin}
-                    >
-                        <Typography className="login-div1">LOGIN</Typography>
-                    </Button>
+                    <ColorButton onClick={handleLogin}>LOGIN</ColorButton>
                     <div style={{ margin: 0, padding: 0 }}>
                         <LoginDialog
                             open={loginOpen}
@@ -199,3 +187,11 @@ function Header() {
 }
 
 export default Header;
+
+const ColorButton = styled(Button)(({ theme }) => ({
+    color: theme.palette.getContrastText(pink[900]),
+    backgroundColor: "var(--color-indigo)",
+    fontSize: "var(--font-size-8xs)",
+    padding: "var(--padding-9xs) var(--padding-sm)",
+    borderRadius: "var(--br-9xs)",
+}));
