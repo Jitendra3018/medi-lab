@@ -12,18 +12,6 @@ import {
 
 function LoginPopup({ open, label, switching }) {
     return (
-        // <Stack
-        //     aria-labelledby="simple-dialog-title"
-        //     open={open}
-        //     sx={{
-        //         background: "var(--color-white)",
-        //         fontFamily: "var(--font-poppins)",
-        //         justifyContent: "space-between",
-        //         alignItems: "center",
-        //         position: "relative",
-        //         borderRadius: "20px",
-        //     }}
-        // >
         <Dialog
             aria-labelledby="simple-dialog-title"
             open={open}
@@ -150,7 +138,6 @@ function LoginPopup({ open, label, switching }) {
                 </Stack>
             </DialogActions>
         </Dialog>
-        // </Stack>
     );
 }
 

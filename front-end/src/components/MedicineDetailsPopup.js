@@ -7,20 +7,20 @@ const MedicineDetailsPopup = ({ onClose }) => {
                 <img
                     className="rectangle-icon6"
                     alt=""
-                    src="../rectangle-372.svg"
+                    src="../assets/rectangle-372.svg"
                 />
                 <div className="group-div82">
                     <img
                         className="group-icon5"
                         alt=""
-                        src="../group-9976.svg"
+                        src="../assets/group-9976.svg"
                     />
                     <div className="frame-div143">
                         <div className="frame-div144">
                             <img
                                 className="image-1-icon"
                                 alt=""
-                                src="../image-1@2x.png"
+                                src="../assets/image-1@2x.png"
                             />
                             <div className="advil-ibuprofin-tablets-200mg">
                                 Advil Ibuprofin Tablets (200mg)

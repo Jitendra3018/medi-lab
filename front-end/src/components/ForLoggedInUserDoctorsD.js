@@ -15,20 +15,20 @@ const ForLoggedInUserDoctorsD = ({ onClose }) => {
                 <img
                     className="rectangle-icon1"
                     alt=""
-                    src="../rectangle-37.svg"
+                    src="../assets/rectangle-37.svg"
                 />
                 <div className="group-div22">
                     <img
                         className="close-big-1-icon"
                         alt=""
-                        src="../close-big-1.svg"
+                        src="../assets/close-big-1.svg"
                     />
                     <div className="frame-div39">
                         <div className="frame-div40">
                             <img
                                 className="ellipse-icon2"
                                 alt=""
-                                src="../ellipse-3@2x.png"
+                                src="../assets/ellipse-3@2x.png"
                             />
                             <div className="group-div23">
                                 <div className="group-div24">

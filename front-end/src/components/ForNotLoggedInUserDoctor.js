@@ -7,20 +7,20 @@ const ForNotLoggedInUserDoctor = ({ onClose }) => {
                 <img
                     className="rectangle-icon7"
                     alt=""
-                    src="../rectangle-37.svg"
+                    src="../assets/rectangle-37.svg"
                 />
                 <div className="group-div84">
                     <img
                         className="close-big-1-icon2"
                         alt=""
-                        src="../close-big-1.svg"
+                        src="../assets/close-big-1.svg"
                     />
                     <div className="frame-div146">
                         <div className="frame-div147">
                             <img
                                 className="ellipse-icon6"
                                 alt=""
-                                src="../ellipse-3@2x.png"
+                                src="../assets/ellipse-3@2x.png"
                             />
                             <div className="group-div85">
                                 <div className="group-div86">

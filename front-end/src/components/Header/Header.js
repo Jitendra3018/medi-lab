@@ -6,14 +6,17 @@ import { Button, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { pink } from "@mui/material/colors";
 
-function Header() {
+function Header({ login }) {
     const navigate = useNavigate();
-    // const [isLoginPopupOpen, setLoginPopupOpen] = useState(false);
     const [loginOpen, setLoginOpen] = useState(false);
     const [signupOpen, setSignupOpen] = useState(false);
 
     const onCONSULTATIONSTextClick = useCallback(() => {
         navigate("/for-not-logged-in-user-book-appointment");
+    }, [navigate]);
+
+    const onAPPOINTMENTSTextClick = useCallback(() => {
+        navigate("/appointments-upcoming");
     }, [navigate]);
 
     const label = { inputProps: { "aria-label": "Checkbox demo" } };
@@ -43,10 +46,6 @@ function Header() {
     const handleLogin = (event) => {
         setLoginOpen(true);
     };
-
-    // const handleSignup = (event) => {
-    //     setSignupOpen(true);
-    // };
 
     return (
         <Stack
@@ -133,6 +132,23 @@ function Header() {
                         >
                             Consultations
                         </Typography>
+                        {login ? (
+                            <Typography
+                                component="div"
+                                variant="div"
+                                sx={{
+                                    position: "relative",
+                                    fontWeight: 500,
+                                    cursor: "pointer",
+                                    textTransform: "uppercase",
+                                }}
+                                onClick={onAPPOINTMENTSTextClick}
+                            >
+                                APPOINTMENTS
+                            </Typography>
+                        ) : (
+                            <></>
+                        )}
                         <Typography
                             component="div"
                             variant="div"
@@ -167,19 +183,33 @@ function Header() {
                     justifyContent="flex-start"
                     gap="var(--gap-sm)"
                 >
-                    <ColorButton onClick={handleLogin}>LOGIN</ColorButton>
-                    <div style={{ margin: 0, padding: 0 }}>
-                        <LoginDialog
-                            open={loginOpen}
-                            setLoginOpen={setLoginOpen}
-                            setSignupOpen={setSignupOpen}
-                        />
-                        <SignupDialog
-                            open={signupOpen}
-                            setLoginOpen={setLoginOpen}
-                            setSignupOpen={setSignupOpen}
-                        />
-                    </div>
+                    {!login ? (
+                        <>
+                            <ColorButton onClick={handleLogin}>
+                                LOGIN
+                            </ColorButton>
+                            <div style={{ margin: 0, padding: 0 }}>
+                                <LoginDialog
+                                    open={loginOpen}
+                                    setLoginOpen={setLoginOpen}
+                                    setSignupOpen={setSignupOpen}
+                                />
+                                <SignupDialog
+                                    open={signupOpen}
+                                    setLoginOpen={setLoginOpen}
+                                    setSignupOpen={setSignupOpen}
+                                />
+                            </div>
+                        </>
+                    ) : (
+                        <div className="frame-div204">
+                            <img
+                                className="rectangle-icon8"
+                                alt=""
+                                src="../assets/rectangle@2x.png"
+                            />
+                        </div>
+                    )}
                 </Stack>
             </Stack>
         </Stack>

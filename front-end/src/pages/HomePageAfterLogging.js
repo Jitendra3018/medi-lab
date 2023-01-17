@@ -4,6 +4,11 @@ import MedicineDetailsPopup from "../components/MedicineDetailsPopup";
 import PortalPopup from "../components/PortalPopup";
 import ForLoggedInUserDoctorsD from "../components/ForLoggedInUserDoctorsD";
 import "./HomePageAfterLogging.css";
+import Footer from "../components/Footer/Footer";
+import HeroSection from "../components/Hero Section/HeroSection";
+import PopularProducts from "../components/Popular Products/PopularProducts";
+import Doctors from "../components/Doctors/Doctors";
+import Header from "../components/Header/Header";
 
 const HomePageAfterLogging = () => {
     const navigate = useNavigate();
@@ -52,7 +57,8 @@ const HomePageAfterLogging = () => {
     return (
         <>
             <div className="home-page-after-logging">
-                <div className="footer-div5">
+                <Footer />
+                {/* <div className="footer-div5">
                     <div className="group-div101">
                         <div className="frame-div168">
                             <img
@@ -133,9 +139,9 @@ const HomePageAfterLogging = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <img className="ellipse-icon7" alt="" src="../ellipse-23.svg" />
-                <div className="hero-section-div2">
+                </div> */}
+                {/* <img className="ellipse-icon7" alt="" src="../ellipse-23.svg" /> */}
+                {/* <div className="hero-section-div2">
                     <div className="frame-div171">
                         <div className="frame-div172">
                             <b className="empowering-people-to-improve-t">
@@ -168,8 +174,9 @@ const HomePageAfterLogging = () => {
                         alt=""
                         src="../doctorscuate.svg"
                     />
-                </div>
-                <div className="popular-products-div">
+                </div> */}
+                <HeroSection />
+                {/* <div className="popular-products-div">
                     <div className="popular-products-div1">
                         Popular Products
                     </div>
@@ -366,8 +373,9 @@ const HomePageAfterLogging = () => {
                         className="anchor-popular-products"
                         data-scroll-to="popularProductsContainer"
                     />
-                </div>
-                <div className="group-div120">
+                </div> */}
+                <PopularProducts />
+                {/* <div className="group-div120">
                     <div className="meet-our-doctors">Meet Our Doctors</div>
                     <div className="group-div121">
                         <div className="rectangle-div84" />
@@ -460,15 +468,16 @@ const HomePageAfterLogging = () => {
                             <div className="see-details-div">See Details</div>
                         </div>
                     </div>
-                </div>
-                <div className="header-after-logging4">
+                </div> */}
+                <Doctors login />
+                {/* <div className="header-after-logging4">
                     <div className="rectangle-div90" />
                     <div className="frame-div200">
                         <div className="frame-div201">
                             <img
                                 className="group-icon6"
                                 alt=""
-                                src="../group-99495.svg"
+                                src="../assets/group-99495.svg"
                             />
                             <div className="frame-div202">
                                 <div className="frame-div203">
@@ -494,22 +503,15 @@ const HomePageAfterLogging = () => {
                             </div>
                         </div>
                         <div className="frame-div204">
-                            <div className="frame-div205">
-                                <img
-                                    className="search-line-1-icon5"
-                                    alt=""
-                                    src="../searchline-15.svg"
-                                />
-                                <div className="search-div5">Search</div>
-                            </div>
                             <img
                                 className="rectangle-icon8"
                                 alt=""
-                                src="../rectangle@2x.png"
+                                src="../assets/rectangle@2x.png"
                             />
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <Header login />
             </div>
             {isMedicineDetailsPopupOpen && (
                 <PortalPopup
